@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/toolbar_main" />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/success"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="投放人姓名"
+        android:textColor="@color/result_view"
+        android:textSize="18dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"
+        />
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"
+        android:textColor="@color/result_view"
+        android:textSize="25dp"
+        android:layout_marginRight="30dp"
+        android:text=""
+        />
+     <TextView
+
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="垃圾类型"
+         android:textColor="@color/result_view"
+         android:textSize="18dp"
+         android:layout_marginTop="30dp"
+         android:layout_marginLeft="30dp"
+         />
+    <TextView
+        android:id="@+id/lx"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"
+        android:textColor="@color/result_view"
+        android:textSize="25dp"
+        android:layout_marginRight="30dp"
+        android:text="请投放垃圾"
+        />
+    <Button
+        android:id="@+id/tfcg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/selector_cg"
+
+        android:text="投放成功"
+        android:textSize="20dp"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        />
+
+</LinearLayout>
